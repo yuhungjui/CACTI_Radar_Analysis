@@ -32,7 +32,7 @@ dy = 3*1000 # in m
 init_year = 2021; init_mon  = 7; init_day  = 30; init_hr   = 12
 year = 2021; mon  = 7; day  = 30; hr   = 12
 
-filein = "/Users/tingyu/Dropbox/CSU/Research/PhD/samurai/wrf_enkf_output_d02_001.nc"
+filein = "/Users/yuhungjui/Downloads/"
 fileout = "../../wrf_20210730/data/Observation.txt"
 fileterrain = "../../wrf_20210730/data/terrain.hgt"
 
