@@ -25,16 +25,17 @@ end
 # ------------------  TO MODIFY ------------------
 center_lat = -32.00
 center_lon = -64.00
-maxradius = 50  # in km
-dx = 3*1000 # in m
-dy = 3*1000 # in m
+maxradius = 400  # in km
+dx = 1*1000 # in m
+dy = 1*1000 # in m
 
-init_year = 2021; init_mon  = 7; init_day  = 30; init_hr   = 12
-year = 2021; mon  = 7; day  = 30; hr   = 12
+init_year = 2019; init_mon  = 1; init_day  = 25; init_hr   = 22
+year = 2019; mon  = 1; day  = 25; hr   = 22
 
-filein = "/Users/tingyu/Dropbox/CSU/Research/PhD/samurai/wrf_enkf_output_d02_001.nc"
+# filein = "/home/hyu/Research_Test/Radar_analysis_CACTI/Data_Terrain/wrf_1km_terrain.nc"
+filein = "/home/hyu/2scratch2/DATA_DOE_CACTI_cases/2WRF_Marqi/jan_wrf_ctrl_1km/wrfout_d01_2019-01-25_22:00:00"
 fileout = "../../wrf_20210730/data/Observation.txt"
-fileterrain = "../../wrf_20210730/data/terrain.hgt"
+fileterrain = "/home/hyu/Research_Test/Radar_analysis_CACTI/Data_Terrain/wrf_1km_terrain_forSAMURAI.hgt"
 
 # ------------------  MODIFY END ------------------
 
