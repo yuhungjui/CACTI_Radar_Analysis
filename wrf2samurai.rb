@@ -32,8 +32,12 @@ dy = 1*1000 # in m
 init_year = 2019; init_mon  = 1; init_day  = 25; init_hr   = 22
 year = 2019; mon  = 1; day  = 25; hr   = 22
 
+<<<<<<< HEAD
 # filein = "/home/hyu/Research_Test/Radar_analysis_CACTI/Data_Terrain/wrf_1km_terrain.nc"
 filein = "/home/hyu/2scratch2/DATA_DOE_CACTI_cases/2WRF_Marqi/jan_wrf_ctrl_1km/wrfout_d01_2019-01-25_22:00:00"
+=======
+filein = "/Users/yuhungjui/Downloads/"
+>>>>>>> 007b28588ca734d2d1aea598dd2a6b4d937d53cd
 fileout = "../../wrf_20210730/data/Observation.txt"
 fileterrain = "/home/hyu/Research_Test/Radar_analysis_CACTI/Data_Terrain/wrf_1km_terrain_forSAMURAI.hgt"
 
