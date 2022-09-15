@@ -1,2 +1,2 @@
-# Radar_analysis_CACTI
+# CACTI_Radar_Analysis
 Analysis codes for radar data from CACTI/RELAMPAGO field campaign.
